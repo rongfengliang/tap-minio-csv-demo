@@ -1,0 +1,270 @@
+{
+  "streams": [
+    {
+      "stream": "my_table",
+      "tap_stream_id": "my_table",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": [
+              "null",
+              "integer",
+              "string"
+            ]
+          },
+          "username": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "userage2": {
+            "type": [
+              "null",
+              "integer",
+              "string"
+            ]
+          },
+          "classinfo": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "_sdc_source_bucket": {
+            "type": "string"
+          },
+          "_sdc_source_file": {
+            "type": "string"
+          },
+          "_sdc_source_lineno": {
+            "type": "integer"
+          },
+          "_sdc_extra": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "metadata": [
+        {
+          "breadcrumb": [],
+          "metadata": {
+            "table-key-properties": [
+              "id"
+            ],
+            "selected":true
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "id"
+          ],
+          "metadata": {
+            "inclusion": "automatic"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "username"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "userage2"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "classinfo"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "_sdc_source_bucket"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "_sdc_source_file"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "_sdc_source_lineno"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "_sdc_extra"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        }
+      ]
+    },
+    {
+      "stream": "my_table2",
+      "tap_stream_id": "my_table2",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "id2": {
+            "type": [
+              "null",
+              "integer",
+              "string"
+            ]
+          },
+          "username2": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "userage3": {
+            "type": [
+              "null",
+              "integer",
+              "string"
+            ]
+          },
+          "classinfo2": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "_sdc_source_bucket": {
+            "type": "string"
+          },
+          "_sdc_source_file": {
+            "type": "string"
+          },
+          "_sdc_source_lineno": {
+            "type": "integer"
+          },
+          "_sdc_extra": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "metadata": [
+        {
+          "breadcrumb": [],
+          "metadata": {
+            "table-key-properties": [
+              "id2"
+            ],
+            "selected":true
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "id2"
+          ],
+          "metadata": {
+            "inclusion": "automatic"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "username2"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "userage3"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "classinfo2"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "_sdc_source_bucket"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "_sdc_source_file"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "_sdc_source_lineno"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "_sdc_extra"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        }
+      ]
+    }
+  ]
+}

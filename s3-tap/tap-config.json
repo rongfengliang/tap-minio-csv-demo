@@ -1,0 +1,8 @@
+{
+    "start_date": "2017-11-02T00:00:00Z",
+    "bucket": "demo",
+    "aws_access_key_id":"dalongapp",
+    "aws_secret_access_key":"dalongapp",
+    "endpoint_url":"http://localhost:9000",
+    "tables": "[{\"search_prefix\":\"exports\",\"search_pattern\":\"my_table.csv\",\"table_name\":\"my_table\",\"key_properties\":\"id\",\"delimiter\":\",\"},{\"search_prefix\":\"exports\",\"search_pattern\":\"my_table2.csv\",\"table_name\":\"my_table2\",\"key_properties\":\"id2\",\"delimiter\":\",\"}]"
+}
